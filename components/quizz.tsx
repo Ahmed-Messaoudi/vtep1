@@ -10,7 +10,7 @@ const Quizz = () => {
     const [selectedAnswers, setSelectedAnswers] = useState({});
     const [score, setScore] = useState(0);
     const [previousScore, setPreviousScore] = useState(0);
-    const [timeLeft, setTimeLeft] = useState(5);
+    const [timeLeft, setTimeLeft] = useState(15);
     const [quizFinished, setQuizFinished] = useState(false);
 
     const currentQuestion = quiz.questions[currentQuestionIndex];
@@ -55,7 +55,7 @@ const Quizz = () => {
 
         if (currentQuestionIndex < quiz.questions.length - 1) {
             setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
-            setTimeLeft(5);
+            setTimeLeft(15);
         } else {
             setQuizFinished(true);
             setPreviousScore(score);
