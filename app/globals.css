@@ -3,19 +3,36 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #0dff00;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #0dff00;
   }
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Prend toute la hauteur de l'écran */
+  display: flex;
+  flex-direction: column; /* Permet de placer la navbar et le contenu en colonne */
+  background-image: url('/ocean-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+}
+
+/* Conteneur principal qui contient le contenu de la page */
+.main-content {
+  flex: 1; /* Prend tout l'espace disponible sous la navbar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
