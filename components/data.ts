@@ -1,70 +1,71 @@
-export const bodyOceanSimilarities = [
+export const similaritesCorpsOcean = [
     {
-        human_body_part: "Heart",
-        ocean_representation: "Ocean Currents",
-        similarity: "The heart pumps blood throughout the body, ensuring circulation, while ocean currents move water, nutrients, and heat around the globe."
+        partie_du_corps: "Cœur",
+        representation_ocean: "Courants océaniques",
+        similarite: "Le cœur pompe le sang dans tout le corps, assurant la circulation, tandis que les courants océaniques déplacent l'eau, les nutriments et la chaleur autour du globe."
     },
     {
-        human_body_part: "Lungs",
-        ocean_representation: "Coral Reefs and Phytoplankton",
-        similarity: "Lungs facilitate the exchange of oxygen and carbon dioxide, while coral reefs and phytoplankton produce over 50% of the oxygen we breathe."
+        partie_du_corps: "Poumons",
+        representation_ocean: "Récifs coralliens et phytoplancton",
+        similarite: "Les poumons facilitent l'échange d'oxygène et de dioxyde de carbone, tandis que les récifs coralliens et le phytoplancton produisent plus de 50 % de l'oxygène que nous respirons."
     },
     {
-        human_body_part: "Blood",
-        ocean_representation: "Seawater",
-        similarity: "Blood and seawater are chemically similar, both containing sodium, chloride, potassium, and magnesium."
+        partie_du_corps: "Sang",
+        representation_ocean: "Eau de mer",
+        similarite: "Le sang et l'eau de mer sont chimiquement similaires, contenant tous deux du sodium, du chlorure, du potassium et du magnésium."
     },
     {
-        human_body_part: "Skin",
-        ocean_representation: "Ocean Surface",
-        similarity: "The skin acts as a protective barrier, and the ocean surface regulates heat exchange and protects marine ecosystems below."
+        partie_du_corps: "Peau",
+        representation_ocean: "Surface de l'océan",
+        similarite: "La peau agit comme une barrière protectrice, et la surface de l'océan régule les échanges thermiques et protège les écosystèmes marins en dessous."
     },
     {
-        human_body_part: "Brain",
-        ocean_representation: "Ocean Depths",
-        similarity: "The brain and ocean depths are vast, mysterious, and critical for life, with much of their workings still unexplored."
+        partie_du_corps: "Cerveau",
+        representation_ocean: "Profondeurs océaniques",
+        similarite: "Le cerveau et les profondeurs océaniques sont vastes, mystérieux et essentiels à la vie, avec de nombreux aspects encore inexplorés."
     },
     {
-        human_body_part: "Stomach",
-        ocean_representation: "Hydrothermal Vents",
-        similarity: "The stomach breaks down food for energy, and hydrothermal vents transform minerals into energy for unique ecosystems."
+        partie_du_corps: "Estomac",
+        representation_ocean: "Cheminées hydrothermales",
+        similarite: "L'estomac décompose les aliments pour produire de l'énergie, et les cheminées hydrothermales transforment les minéraux en énergie pour des écosystèmes uniques."
     },
     {
-        human_body_part: "Blood Vessels",
-        ocean_representation: "Rivers and Ocean Currents",
-        similarity: "Blood vessels transport nutrients through the body, while rivers and currents distribute nutrients and energy across marine ecosystems."
+        partie_du_corps: "Vaisseaux sanguins",
+        representation_ocean: "Rivières et courants océaniques",
+        similarite: "Les vaisseaux sanguins transportent les nutriments dans le corps, tandis que les rivières et les courants distribuent les nutriments et l'énergie dans les écosystèmes marins."
     },
     {
-        human_body_part: "Bones",
-        ocean_representation: "Coral Reefs",
-        similarity: "Bones provide structure and support for the body, just as coral reefs serve as a framework and habitat for marine life."
+        partie_du_corps: "Os",
+        representation_ocean: "Récifs coralliens",
+        similarite: "Les os fournissent structure et soutien au corps, tout comme les récifs coralliens servent de cadre et d'habitat pour la vie marine."
     },
     {
-        human_body_part: "Liver",
-        ocean_representation: "Coastal Wetlands and Mangroves",
-        similarity: "The liver filters toxins and maintains chemical balance, while wetlands and mangroves filter pollutants and maintain water quality."
+        partie_du_corps: "Foie",
+        representation_ocean: "Zones humides côtières et mangroves",
+        similarite: "Le foie filtre les toxines et maintient l'équilibre chimique, tandis que les zones humides et les mangroves filtrent les polluants et maintiennent la qualité de l'eau."
     },
     {
-        human_body_part: "Kidneys",
-        ocean_representation: "Tides",
-        similarity: "Kidneys regulate fluid balance and remove waste, while tides circulate nutrients and flush debris from coastal areas."
+        partie_du_corps: "Reins",
+        representation_ocean: "Marées",
+        similarite: "Les reins régulent l'équilibre des fluides et éliminent les déchets, tandis que les marées circulent les nutriments et éliminent les débris des zones côtières."
     },
     {
-        human_body_part: "Nervous System",
-        ocean_representation: "Marine Communication",
-        similarity: "The nervous system transmits signals throughout the body, while marine species use sound waves to communicate and navigate."
+        partie_du_corps: "Système nerveux",
+        representation_ocean: "Communication marine",
+        similarite: "Le système nerveux transmet des signaux dans tout le corps, tandis que les espèces marines utilisent les ondes sonores pour communiquer et naviguer."
     },
     {
-        human_body_part: "Eyes",
-        ocean_representation: "Bioluminescence",
-        similarity: "Eyes allow humans to perceive their environment, while bioluminescent organisms illuminate the ocean’s darkness."
+        partie_du_corps: "Yeux",
+        representation_ocean: "Bioluminescence",
+        similarite: "Les yeux permettent aux humains de percevoir leur environnement, tandis que les organismes bioluminescents illuminent l'obscurité de l'océan."
     },
     {
-        human_body_part: "Sweat Glands",
-        ocean_representation: "Ocean Evaporation",
-        similarity: "Sweat glands regulate body temperature through moisture release, while ocean evaporation drives the water cycle and climate regulation."
+        partie_du_corps: "Glandes sudoripares",
+        representation_ocean: "Évaporation de l'océan",
+        similarite: "Les glandes sudoripares régulent la température corporelle en libérant de l'humidité, tandis que l'évaporation de l'océan alimente le cycle de l'eau et la régulation du climat."
     }
 ];
+
 export const quizofbodyOceanSimilarities = [
     {
         "title": "QUIZZZZZZ",

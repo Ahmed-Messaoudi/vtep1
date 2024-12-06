@@ -17,9 +17,9 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh; /* Prend toute la hauteur de l'écran */
+  min-height: 100vh; /* Assure que la hauteur minimale est celle de l'écran */
   display: flex;
-  flex-direction: column; /* Permet de placer la navbar et le contenu en colonne */
+  flex-direction: column; /* Permet de placer la navbar, le contenu et le footer en colonne */
   background-image: url('/ocean-background.jpg');
   background-size: cover;
   background-position: center;
@@ -29,10 +29,10 @@ body {
   background-color: var(--background);
 }
 
-/* Conteneur principal qui contient le contenu de la page */
 .main-content {
   flex: 1; /* Prend tout l'espace disponible sous la navbar */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
