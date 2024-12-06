@@ -6,10 +6,13 @@ const Navbar = () => {
         <nav className="bg-cyan-600 p-4">
             <div className="flex justify-between items-center">
                 {/* Logo à gauche */}
-                <div className="text-white text-xl font-bold">
-                    <button className="px-6 py-2 text-white bg-blue-700 rounded-full hover:bg-blue-800 focus:outline-none">
-                        EcoTides
-                    </button>
+                <div className="flex items-center">
+                    <img
+                        alt="Logo d'EcoTides"
+                        src="/logo.jpg" // Remplacez par une URL d'image pertinente
+                        className="w-12 h-12 rounded-full mr-2" // Taille et marge
+                    />
+                    <h1 className="text-white text-2xl font-bold">EcoTides</h1>
                 </div>
 
                 {/* Boutons à droite */}
@@ -26,10 +29,6 @@ const Navbar = () => {
                             Quiz
                         </button>
                     </Link>
-
-
-
-
                 </div>
             </div>
         </nav>
