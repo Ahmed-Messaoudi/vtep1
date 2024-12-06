@@ -62,7 +62,7 @@ export const similaritesCorpsOcean = [
 const Descriptions = () => {
     return (
         <div className="p-4">
-            <h1 className="text-4xl font-bold text-center mb-6 text-blue-700">Similitudes entre le corps humain et l'océan</h1>
+            <h1 className="text-8xl font-bold text-center mb-6 text-blue-700">Similitudes entre le corps humain et l'océan</h1>
             <h2 className="text-2xl text-center mb-8 text-blue-800">Découvrez les analogies fascinantes entre les deux</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {similaritesCorpsOcean.map((item, index) => (

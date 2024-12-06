@@ -2,7 +2,7 @@ import { GlobeAltIcon, ShieldCheckIcon, AcademicCapIcon } from '@heroicons/react
 
 export default function Hero() {
     return (
-        <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+        <div className="bg-cyan-50 relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
             <div className="absolute inset-0 -z-10 overflow-hidden">
                 <svg
                     aria-hidden="true"
@@ -27,17 +27,17 @@ export default function Hero() {
                 <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                     <div className="lg:pr-4">
                         <div className="lg:max-w-lg">
-                            <p className="font-bold text-blue-700 text-2xl">Explore the Ocean Within</p>
+                            <p className="font-bold text-blue-700 text-2xl">Explorez l'Océan Intérieur</p>
                             <h1 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                                Discover the Body's Oceanic Connections
+                                Découvrez les Connexions Océaniques du Corps
                             </h1>
                         </div>
                     </div>
                 </div>
                 <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                     <img
-                        alt="An artistic representation of a vibrant coral reef, teeming with marine life"
-                        src="/ocean-humain.webp" // Replace with a relevant image URL
+                        alt="Une représentation artistique d'un récif corallien vibrant, foisonnant de vie marine"
+                        src="/ocean-humain.webp" // Remplacez par une URL d'image pertinente
                         className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
                     />
                 </div>
@@ -45,35 +45,35 @@ export default function Hero() {
                     <div className="lg:pr-4">
                         <div className="max-w-xl rounded-lg bg-blue-200 from-blue-50 to-teal-100 p-8 shadow-lg lg:max-w-lg">
                             <p className="text-lg text-black">
-                                Just as the ocean supports countless ecosystems, each part of our body contributes to a greater whole.
-                                Discover how the lungs mimic the rhythmic waves, the heart pulses like ocean currents, and our skin
-                                protects us as the ocean's surface shields its depths.
+                                Tout comme l'océan soutient d'innombrables écosystèmes, chaque partie de notre corps contribue à un tout plus grand.
+                                Découvrez comment les poumons imitent les vagues rythmiques, le cœur pulse comme les courants marins, et notre peau
+                                nous protège comme la surface de l'océan protège ses profondeurs.
                             </p>
                             <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                 <li className="flex gap-x-3">
                                     <GlobeAltIcon aria-hidden="true" className="mt-1 h-6 w-6 flex-none text-teal-600" />
                                     <span>
-                                        <strong className="font-semibold text-gray-900">Currents of Knowledge.</strong>
-                                        Gain insights into the body through ocean-inspired analogies that make learning captivating and relatable.
+                                        <strong className="font-semibold text-gray-900">Courants de Connaissance.</strong>
+                                        Obtenez des aperçus sur le corps à travers des analogies inspirées de l'océan qui rendent l'apprentissage captivant et accessible.
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
                                     <ShieldCheckIcon aria-hidden="true" className="mt-1 h-6 w-6 flex-none text-teal-600" />
                                     <span>
-                                        <strong className="font-semibold text-gray-900">Protective Layers.</strong>
-                                        Understand how the body's defenses align with the ocean's resilient ecosystems.
+                                        <strong className="font-semibold text-gray-900">Couches Protectrices.</strong>
+                                        Comprenez comment les défenses du corps s'alignent avec les écosystèmes résilients de l'océan.
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
                                     <AcademicCapIcon aria-hidden="true" className="mt-1 h-6 w-6 flex-none text-teal-600" />
                                     <span>
-                                        <strong className="font-semibold text-gray-900">Endless Depths.</strong>
-                                        Explore the parallels between the vastness of the ocean and the complexity of the human body.
+                                        <strong className="font-semibold text-gray-900">Profondeurs Infinies.</strong>
+                                        Explorez les parallèles entre l'immensité de l'océan et la complexité du corps humain.
                                     </span>
                                 </li>
                             </ul>
                             <p className="mt-8 text-lg text-gray-700">
-                                Embark on this unique adventure and unlock the secrets of the ocean and your body. Learning has never been this immersive.
+                                Embarquez pour cette aventure unique et découvrez les secrets de l'océan et de votre corps. L'apprentissage n'a jamais été aussi immersif.
                             </p>
                         </div>
                     </div>
